@@ -7,7 +7,7 @@ It is also similar to the preferences editor in Android
 
 ##Description
 
-I have two articles on [Codeproject](http://www.codeproject.com/) describing the use and workings of the control:
+I have an article on [Codeproject](http://www.codeproject.com/) describing the use and workings of the control:
 
 [An ObjectEditor for Android](http://www.codeproject.com/Articles/680126/An-ObjectEditor-for-Android)
 
