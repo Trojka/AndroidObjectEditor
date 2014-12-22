@@ -1,19 +1,20 @@
 apply plugin: 'com.android.library'
-
 android {
-    compileSdkVersion 11
+    compileSdkVersion 15
     buildToolsVersion "20.0.0"
-
     defaultConfig {
-        applicationId "be.trojkasoftware.android.objecteditor"
-        minSdkVersion 11
-        targetSdkVersion 11
+        minSdkVersion 15
+        targetSdkVersion 15
     }
-
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    productFlavors {
+    }
+}
+
+dependencies {
 }

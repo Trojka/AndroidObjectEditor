@@ -3,17 +3,10 @@
       package="be.trojkasoftware.android.objecteditor"
       android:versionCode="1"
       android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="11"
-        android:targetSdkVersion="11" />
+    <uses-sdk android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
 
     <application android:icon="@drawable/icon" android:label="@string/app_name">
-        <activity android:name="be.trojkasoftware.android.sample.AndroidObjectEditorActivity"
-                  android:label="@string/app_name">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
 		<activity android:name="be.trojkasoftware.android.typeeditor.ColorEditorActivity"></activity>
 
     </application>
